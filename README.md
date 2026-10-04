@@ -16,6 +16,7 @@ The following are the display effects of version `2.0`.
 - Default parameters can be set during initialization, making function calls more concise. Additionally, the current function call can override the default parameters.
 - Compatible with most official and unofficial versions of `MicroPython`. It is implemented purely with native `MicroPython` and does not require firmware compilation. Additionally, it maintains high efficiency as much as possible.
 - Supports multiple screen models such as `SSD1306`, `ST7735`, and `ST7789`. It also supports driving high-resolution screens on low-memory development boards (e.g., `ESP32C3` driving `240*240 ST7789` screens).
+- Supports the `2.9` inch SPI black/white e-paper (`GDEH029A1`, `SSD1608` controller), with the canvas orientation configurable via the `rotate` parameter.
 
 ### Usage
 - Please refer to the source code comments.（The comments section is written in Chinese and may need translation in order to read.）
